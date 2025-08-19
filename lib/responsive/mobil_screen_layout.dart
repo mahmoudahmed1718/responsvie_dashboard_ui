@@ -15,7 +15,7 @@ class MobilScreenLayout extends StatelessWidget {
       drawer: MyDrawer(),
       body: Column(
         children: [
-          MyGridViewList(),
+          MyGridViewList(aspectRatio: 1, crossAxisCount: 2),
 
           Expanded(child: MyListView()),
         ],

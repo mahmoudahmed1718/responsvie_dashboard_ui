@@ -2,15 +2,21 @@ import 'package:flutter/material.dart';
 import 'package:responsvie_dashboard_ui/widgets/my_box.dart';
 
 class MyGridViewList extends StatelessWidget {
-  const MyGridViewList({super.key});
-
+  const MyGridViewList({
+    super.key,
+    required this.crossAxisCount,
+    required this.aspectRatio,
+  });
+  final int crossAxisCount;
+  final double aspectRatio;
   @override
   Widget build(BuildContext context) {
     return AspectRatio(
-      aspectRatio: 1,
+      aspectRatio: aspectRatio,
       child: GridView.builder(
+        itemCount: 4,
         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-          crossAxisCount: 2,
+          crossAxisCount: crossAxisCount,
         ),
         itemBuilder: (context, index) {
           return Padding(padding: const EdgeInsets.all(8.0), child: MyBox());
