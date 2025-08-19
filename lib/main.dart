@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:responsvie_dashboard_ui/responsive/mobil_screen_layout.dart';
 import 'package:responsvie_dashboard_ui/responsive/responsive_layout.dart';
+import 'package:responsvie_dashboard_ui/responsive/tablet_screen_layout.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: ResponsiveLayout(
         mobileScreenLayout: MobilScreenLayout(),
-        tabletScreenLayout: Scaffold(body: Center(child: Text("Tablet"))),
+        tabletScreenLayout: TabletScreenLayout(),
         desktopScreenLayout: Scaffold(body: Center(child: Text("Desktop"))),
       ),
     );
