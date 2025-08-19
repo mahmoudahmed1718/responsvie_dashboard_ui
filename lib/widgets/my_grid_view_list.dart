@@ -19,7 +19,7 @@ class MyGridViewList extends StatelessWidget {
           crossAxisCount: crossAxisCount,
         ),
         itemBuilder: (context, index) {
-          return Padding(padding: const EdgeInsets.all(8.0), child: MyBox());
+          return MyBox();
         },
       ),
     );

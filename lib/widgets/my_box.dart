@@ -6,6 +6,14 @@ class MyBox extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(color: AppColors.secondary);
+    return Padding(
+      padding: const EdgeInsets.all(8.0),
+      child: Container(
+        decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(12),
+          color: AppColors.secondary,
+        ),
+      ),
+    );
   }
 }
