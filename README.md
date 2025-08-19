@@ -10,22 +10,15 @@ This project demonstrates how to design adaptive UIs for **mobile, tablet, and d
 - Easy to customize and extend  
 - Supports both **light & dark themes** (optional)  
 
-## 📱💻🖥️ Screenshots  
+ ## 📱💻🖥️ Screenshots  
 
-### 🖥️ Desktop View  
-![Desktop Screenshot](assets/images/deskto_view.jpg)  
-
-### 🖥️ Desktop View with Drawer  
-![Desktop Screenshot with Drawer](assets/images/desktop_view-with_drawer.jpg)  
-
-### 📱 Mobile View  
-![Mobile Screenshot](assets/images/mobil_view.jpg)  
-
-### 📱 Mobile View with Drawer  
-![Mobile Screenshot with Drawer](assets/images/mobile_view_withdrawer.jpg)  
-
-### 📟 Tablet View  
-![Tablet Screenshot](assets/images/tablet_view.jpg)  
+<div style="display: flex; overflow-x: auto; gap: 10px; padding: 10px;">
+  <img src="assets/images/deskto_view.jpg" alt="Desktop View" width="300"/>
+  <img src="assets/images/desktop_view-with_drawer.jpg" alt="Desktop View with Drawer" width="300"/>
+  <img src="assets/images/mobil_view.jpg" alt="Mobile View" width="200"/>
+  <img src="assets/images/mobile_view_withdrawer.jpg" alt="Mobile View with Drawer" width="200"/>
+  <img src="assets/images/tablet_view.jpg" alt="Tablet View" width="250"/>
+</div>
 
 ## 🛠️ Technologies Used  
 - [Flutter](https://flutter.dev/) (latest stable)  
