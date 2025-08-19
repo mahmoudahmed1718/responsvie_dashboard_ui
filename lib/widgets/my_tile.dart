@@ -6,7 +6,7 @@ class MyTile extends StatelessWidget {
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.all(8.0),
-      child: Container(height: 50, color: Colors.green),
+      child: Container(height: 50, color: Colors.white),
     );
   }
 }
