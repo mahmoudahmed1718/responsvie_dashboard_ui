@@ -4,9 +4,9 @@ class MyTile extends StatelessWidget {
   const MyTile({super.key});
   @override
   Widget build(BuildContext context) {
-    return Container(
-      height: MediaQuery.of(context).size.height * 0.1,
-      color: Colors.green,
+    return Padding(
+      padding: const EdgeInsets.all(8.0),
+      child: Container(height: 50, color: Colors.green),
     );
   }
 }
