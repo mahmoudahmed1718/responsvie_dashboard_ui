@@ -1,16 +1,34 @@
-# responsvie_dashboard_ui
+# 📊 Flutter Responsive Dashboard UI  
 
-A new Flutter project.
+A modern and responsive **Dashboard UI** built with Flutter.  
+This project demonstrates how to design adaptive UIs for **mobile, tablet, and desktop** using Flutter’s layout and responsive design techniques.  
 
-## Getting Started
+## 🚀 Features  
+- Responsive layout (Mobile, Tablet, Desktop)  
+- Adaptive widgets and dynamic sizing  
+- Clean and structured project architecture  
+- Easy to customize and extend  
+- Supports both **light & dark themes** (optional)  
 
-This project is a starting point for a Flutter application.
+## 📱💻🖥️ Screenshots  
 
-A few resources to get you started if this is your first Flutter project:
+### 🖥️ Desktop View  
+![Desktop Screenshot](assets/images/deskto_view.jpg)  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 🖥️ Desktop View with Drawer  
+![Desktop Screenshot with Drawer](assets/images/desktop_view-with_drawer.jpg)  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 📱 Mobile View  
+![Mobile Screenshot](assets/images/mobil_view.jpg)  
+
+### 📱 Mobile View with Drawer  
+![Mobile Screenshot with Drawer](assets/images/mobile_view_withdrawer.jpg)  
+
+### 📟 Tablet View  
+![Tablet Screenshot](assets/images/tablet_view.jpg)  
+
+## 🛠️ Technologies Used  
+- [Flutter](https://flutter.dev/) (latest stable)  
+- [Dart](https://dart.dev/)  
+
+## 📂 Project Structure  
